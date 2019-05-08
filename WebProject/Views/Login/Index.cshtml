@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/Css/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/Css/Site.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-3">
+                <form action="/Login/Autenticar" method="post">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input name="email" id="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input name="senha" id="senha" class="form-control" type="password" />
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">Mantenha-me logado
+                        </label>
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Logar" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
