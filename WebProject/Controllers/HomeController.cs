@@ -11,11 +11,22 @@ namespace WebProject.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+			object usuarioLogado = Session["usuarioLogado"];
+			if (usuarioLogado != null)
+			{
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Index", "Login");
+			}
+
+			
         }
 
 		public ActionResult Sair()
 		{
+			Session["usuarioLogado"] = null;
 			return RedirectToAction("Index", "Login");
 		}
 	}

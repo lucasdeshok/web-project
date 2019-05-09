@@ -16,14 +16,19 @@ namespace WebProject.Controllers
             return View();
         }
 
-		public ActionResult Autenticar(string email, string senha)
+		public ActionResult Autenticar(string email, string senha, bool manterLogado = false)
 		{
 			UsuariosDAO usuariosDao = new UsuariosDAO();
 			Usuario usuario = usuariosDao.ConsultarPorEmailSenha(email, senha);
+
 			if (usuario != null)
 			{
-				Session["usuarioLogado"] = usuario;
-				return RedirectToAction("Index", "Produto");
+				if (manterLogado)
+				{
+					Session["usuarioLogado"] = usuario;
+				}
+
+				return RedirectToAction("Index", "Home");
 			}
 			else
 			{

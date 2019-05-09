@@ -26,7 +26,7 @@ namespace WebProject.DAO
 
 			IMongoCollection<Usuario> collectionUsuarios = mongoDatabase.GetCollection<Usuario>("usuarios");
 			Expression<Func<Usuario, bool>> filter = x => x.Email.Equals(email) && x.Senha == senha;
-			IList<Usuario> itemsUsuario = collectionUsuarios.Find(filter).ToList();
+			usuario = collectionUsuarios.Find(filter).FirstOrDefault();
 
 			return usuario;
 		}
