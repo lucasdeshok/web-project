@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/Css/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/Css/Site.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-3">
+                <form action="/Produto/Adicionar" method="post">
+
+                    <div class="form-group">
+                        <label for="codigo">Código</label>
+                        <input id="codigo" name="produto.Codigo" value="@ViewBag.Produto.Codigo" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationMessage("produto.Nome")
+                        <label for="nome">Nome</label>
+                        <input id="nome" name="produto.Nome" value="@ViewBag.Produto.Nome" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="estoque">Estoque</label>
+                        <input id="estoque" name="produto.Estoque" value="@ViewBag.Produto.Estoque" class="form-control" />
+                    </div>
+
+                    <input class="btn btn-primary" type="submit" value="Cadastrar" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

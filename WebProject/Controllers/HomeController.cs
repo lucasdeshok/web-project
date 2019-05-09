@@ -13,5 +13,10 @@ namespace WebProject.Controllers
         {
             return View();
         }
-    }
+
+		public ActionResult Sair()
+		{
+			return RedirectToAction("Index", "Login");
+		}
+	}
 }

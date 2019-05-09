@@ -1,9 +1,8 @@
-C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.csprojAssemblyReference.cache
-C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\csc.exe
+C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\WebProject.dll.config
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\WebProject.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\WebProject.pdb
-C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\csc.exe
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\csc.exe.config
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\csc.rsp
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\csi.exe
@@ -12,7 +11,6 @@ C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\csi.rsp
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\roslyn\Microsoft.CSharp.Core.targets
@@ -80,6 +78,8 @@ C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\pt-br\System.Web.Webpag
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\pt-br\System.Web.Webpages.Razor.resources.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\pt-br\System.Web.Helpers.resources.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.csproj.CopyComplete
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.dll
 C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.pdb
+C:\Users\Lucas\source\repos\SlnWebProject\WebProject\obj\Debug\WebProject.csprojAssemblyReference.cache
